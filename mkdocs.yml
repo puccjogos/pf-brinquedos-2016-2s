@@ -1,0 +1,14 @@
+site_name: PF Brinquedos - 2016-2S
+pages:
+  - Home: 'index.md'
+  - Referências : 'referencias.md'
+theme: bootstrap
+extra_css:
+  - css/extra.css
+extra_javascript:
+  - js/extra.js
+markdown_extensions:
+  - smarty
+  - sane_lists
+site_favicon: 'imgs/shuffling.gif'
+repo_url: https://github.com/puccjogos/pf-brinquedos-2016-2s

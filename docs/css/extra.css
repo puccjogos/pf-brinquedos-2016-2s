@@ -1,0 +1,84 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+@import 'https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500';
+
+body {
+  font-size: 16px;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", Arial, sans-serif;
+}
+
+@media screen {
+  p {
+    margin: 16px 0;
+  }
+    
+  h1 {
+    font-size: 2em;
+    font-weight: 100;
+    margin: 32px 0;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    font-weight: 300;
+    color:#111;
+    margin: 32px 0;
+  }
+
+  h3 {
+    font-size: 1.25em;
+    font-weight: 300;
+    color:#333;
+    margin: 16px 0;
+  }
+
+  h4 {
+    font-size: 1.1em;
+    font-weight: 300;
+    color:#666;
+    margin: 16px 0;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  h1 {
+    font-size: 4em;
+    font-weight: 100;
+  }
+  
+  h2 {
+    font-size: 2em;
+    color:#444;
+  }
+
+  h3 {
+    font-size: 1.5em;
+    font-weight: 300;
+    color:#555;
+  }
+}
+
+a {
+  color: #176adb;
+}
+
+a:hover {
+  color:black;
+}
+
+li.main {
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+div[role="main"] img {
+    max-width: 100%;
+}
+
+footer p {
+    text-align: right;
+}
