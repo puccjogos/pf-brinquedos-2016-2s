@@ -1,69 +1,63 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat+Alternates:400,700);
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,900,400italic,700italic);
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+@import 'https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500';
 
 body {
   font-size: 16px;
-  font-family: "Roboto", Arial;
+  font-family: "Open Sans", Arial, sans-serif;
 }
 
 h1, h2, h3, h4 {
-  font-family: "Montserrat", "Roboto", Arial;
+  font-family: "Raleway", Arial, sans-serif;
 }
 
 @media screen {
+  p {
+    margin: 16px 0;
+  }
+    
   h1 {
     font-size: 2em;
-    font-weight: 400;
-    padding-bottom: 0.5em;
+    font-weight: 100;
+    margin: 32px 0;
   }
   
   h2 {
     font-size: 1.5em;
-    font-weight: 700;
-    color:#444;
-    padding-bottom: 0.25em;
+    font-weight: 300;
+    color:#111;
+    margin: 32px 0;
   }
 
   h3 {
     font-size: 1.25em;
-    font-weight: 700;
-    color:#555;
+    font-weight: 300;
+    color:#333;
+    margin: 16px 0;
   }
 
   h4 {
     font-size: 1.1em;
-    font-weight: 400;
+    font-weight: 300;
     color:#666;
-    padding-top: 0.25em;
+    margin: 16px 0;
   }
 }
 
 @media screen and (min-width: 480px) {
   h1 {
     font-size: 4em;
-    font-weight: 700;
-    padding-bottom: 0.5em;
+    font-weight: 100;
   }
   
   h2 {
     font-size: 2em;
-    font-weight: 700;
     color:#444;
-    padding-bottom: 0.25em;
   }
 
   h3 {
     font-size: 1.5em;
-    font-weight: 400;
+    font-weight: 300;
     color:#555;
-  }
-
-  h4 {
-    font-size: 1.1em;
-    font-weight: 400;
-    color:#666;
-    padding-top: 0.25em;
   }
 }
 
@@ -84,7 +78,7 @@ a:hover {
 }
 
 li.main {
-    font-family: "Montserrat", "Roboto", Arial;
+    font-family: "Open Sans", Arial, sans-serif;
     font-size: 1.2em;
     font-weight: 700;
 }
