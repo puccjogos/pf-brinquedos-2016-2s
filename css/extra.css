@@ -6,8 +6,9 @@ body {
   font-family: "Open Sans", Arial, sans-serif;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", Arial, sans-serif;
+    padding-top: 3px;
 }
 
 @media screen {
@@ -16,61 +17,36 @@ h1, h2, h3, h4 {
   }
     
   h1 {
-    font-size: 2em;
-    font-weight: 100;
+    font-size: 4em;
+    font-weight: 200;
     margin: 32px 0;
+    color: #000;
   }
   
   h2 {
-    font-size: 1.5em;
-    font-weight: 300;
-    color:#111;
+    font-size: 2em;
+    font-weight: 400;
+    color: #eb0051;
     margin: 32px 0;
   }
 
   h3 {
-    font-size: 1.25em;
+    font-size: 1.5em;
     font-weight: 300;
-    color:#333;
+    color:#eb0051;
     margin: 16px 0;
   }
 
   h4 {
-    font-size: 1.1em;
-    font-weight: 300;
-    color:#666;
+    font-size: 1.25em;
+    font-weight: 500;
+    color:#000;
     margin: 16px 0;
   }
 }
 
-@media screen and (min-width: 480px) {
-  h1 {
-    font-size: 4em;
-    font-weight: 100;
-  }
-  
-  h2 {
-    font-size: 2em;
-    color:#444;
-  }
-
-  h3 {
-    font-size: 1.5em;
-    font-weight: 300;
-    color:#555;
-  }
-}
-
-/* img stretch
-div[role="main"] img {
-    width: 100%;
-    height: auto;
-}
-*/
-
-
 a {
-  color: #176adb;
+  color: #0062ff;
 }
 
 a:hover {
